@@ -1,0 +1,31 @@
+body {
+  max-width: 960px;
+}
+
+body * {
+  background-color: red;
+}
+
+.content {
+  width: 100%;
+}
+
+main{
+  float: right;
+}
+
+.nav{
+  width: 100%;
+  height: 100%;
+}
+
+.sub-nav {
+  width: .20833%;
+  height: 600px;
+}
+
+.top-tiles {
+  margin-left: .20833%;
+  width: 0.395833;
+  float: right;
+}
