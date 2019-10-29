@@ -19,6 +19,9 @@ main{
   width: 100%;
   height: 100px;
 }
+nav:first-of-type {
+  background-color:rgb(165, 42, 165);
+ }
 
 .sub-nav {
   width: 20.83%;
@@ -26,14 +29,34 @@ main{
   float: left;
 }
 
+aside:first-of-type {
+  background-color:rgb(165, 91, 42);
+ }
+
 .top-tiles {
-  /* margin-left: 20.833%; */
   width: 39.58%;
   height: 200px;
-
   float: left;
 }
 
+section:first-of-type {
+  background-color:blue;
+ }
+section:nth-last-of-type(1) {
+ background: deeppink;
+}
+section:nth-last-of-type(2) {
+  background: greenyellow;
+ }
+ section:nth-last-of-type(3) {
+  background:orange;
+ }
+ section:nth-last-of-type(4){
+  background:yellow;
+ }
+ section:nth-last-of-type(5){
+  background:aquamarine;
+ }
 .bottom-tiles {
   width: 19.583%;
   height: 250px;
@@ -45,3 +68,6 @@ main{
   height: 150px;
   float: left;
 }
+footer:first-of-type {
+  background-color:rosybrown;
+ }

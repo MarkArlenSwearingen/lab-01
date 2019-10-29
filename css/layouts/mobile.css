@@ -36,3 +36,33 @@ body * {
   height: 80px;
   float: left;
 }
+
+nav:first-of-type {
+  background-color:rgb(165, 165, 165);
+ }
+
+ aside:first-of-type {
+  background-color:rgb(165,0, 42);
+ }
+
+section:first-of-type {
+  background-color:lightblue;
+ }
+section:nth-last-of-type(1) {
+ background: palevioletred;
+}
+section:nth-last-of-type(2) {
+  background: gold;
+ }
+ section:nth-last-of-type(3) {
+  background:blueviolet;
+ }
+ section:nth-last-of-type(4){
+  background:burlywood;
+ }
+ section:nth-last-of-type(5){
+  background:salmon;
+ }
+ footer:first-of-type {
+  background-color:plum;
+ }
