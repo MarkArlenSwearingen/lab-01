@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+nav, aside, section, footer, body {
+  position: relative;
+  outline: 1px solid blue;
+  color: white;
+}
