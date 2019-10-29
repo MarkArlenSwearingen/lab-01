@@ -26,7 +26,7 @@ body * {
 }
 
 .bottom-tiles {
-  width: 100%;
+  width: 50%;
   height: 250px;
   float: left;
 }
@@ -38,31 +38,31 @@ body * {
 }
 
 nav:first-of-type {
-  background-color:rgb(0, 165, 165);
+  background-color:rgb(165, 165, 165);
  }
 
  aside:first-of-type {
-  background-color:rgb(0, 165, 102);
+  background-color:rgb(165,0, 42);
  }
 
 section:first-of-type {
-  background-color:darkturquoise;
+  background-color:lightblue;
  }
 section:nth-last-of-type(1) {
- background: darkorange;
+ background: palevioletred;
 }
 section:nth-last-of-type(2) {
-  background: darkolivegreen;
+  background: gold;
  }
  section:nth-last-of-type(3) {
-  background:violet;
+  background:blueviolet;
  }
  section:nth-last-of-type(4){
-  background:brown;
+  background:burlywood;
  }
  section:nth-last-of-type(5){
-  background:silver;
+  background:salmon;
  }
  footer:first-of-type {
-  background-color:chartreuse;
+  background-color:plum;
  }
