@@ -6,8 +6,8 @@ body {
   margin: auto;
 }
 
-nav, aside, section, footer {
+nav, aside, section, footer, body {
   position: relative;
   outline: 1px solid blue;
-  color: green;
+  color: white;
 }
