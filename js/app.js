@@ -2,7 +2,6 @@
 
 function winResized(){
   let size = $(window).width();
-  console.log(size);
   if (size < 768 && size > 480){
     $(".nav").css( "background", "red" );
     $(".sub-nav").css( "background", "blue" );
